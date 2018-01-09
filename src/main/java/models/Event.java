@@ -24,6 +24,9 @@ public class Event {
     public String getsEntertainment(){
         return this.entertainment;
     }
+    public int getsTotal(){
+        return -1;
+    }
     /*
     public int guestCost(int totalGuest){
         int guestPlateCost = 7;
