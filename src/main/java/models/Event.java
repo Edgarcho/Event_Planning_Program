@@ -34,4 +34,8 @@ public class Event {
         int guestTotal = this.guest*platePerPerson;
         return guestTotal;
     }
+    public int grandTotal(){
+        this.total = plateCost();
+        return 0;
+    }
 }
