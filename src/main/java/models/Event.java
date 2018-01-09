@@ -35,8 +35,4 @@ public class Event {
         this.total = this.guest*plateCost;
         return total;
     }
-//    public int totalCost(int guestTotal){
-//        return 0;
-//    }
-
 }
