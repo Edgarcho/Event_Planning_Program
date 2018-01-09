@@ -5,6 +5,7 @@ public class Event {
     private int food;
     private int drink;
 
+
     public Event(int guest, int food, int drink, int entertainment){
         this.guest = guest;
         this.food = food;
@@ -18,5 +19,8 @@ public class Event {
     }
     public int getsDrink(){
         return this.drink;
+    }
+    public int getsEntertainment(){
+        return 0;
     }
 }
