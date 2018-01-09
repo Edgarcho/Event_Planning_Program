@@ -9,4 +9,7 @@ public class Event {
     public int getsGuest(){
         return this.guest;
     }
+    public int getsFood(){
+        return 0;
+    }
 }
