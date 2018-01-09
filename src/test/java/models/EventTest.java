@@ -9,4 +9,10 @@ public class EventTest {
         Event testEvent = new Event(1, 1, 1, 1);
         assertEquals(true, testEvent instanceof Event);
     }
+
+    @Test
+    public void newEvent_getsGuest_1() {
+        Event testEvent = new Event(1,1,1,1);
+        assertEquals(1, testEvent.getsGuest());
+    }
 }
