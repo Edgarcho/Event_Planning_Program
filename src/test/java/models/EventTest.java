@@ -36,7 +36,13 @@ public class EventTest {
 
     @Test
     public void newEvent_guestCost_7() {
-        Event testEvent = new Event(1,1,1,1);
+        Event testEvent = new Event(1, 1, 1, 1);
         assertEquals(7, testEvent.guestCost(1));
+    }
+
+    @Test
+    public void newEvent_totalCost_7() {
+        Event testEvent = new Event(1,1,1,1,);
+        assertEquals(7,testEvent.totalCost(1));
     }
 }
