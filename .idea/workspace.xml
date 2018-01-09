@@ -45,7 +45,7 @@
                     <element signature="e#239#240#0" expanded="true" />
                     <element signature="e#272#273#0" expanded="true" />
                     <element signature="e#299#300#0" expanded="true" />
-                    <element signature="e#323#324#0" expanded="true" />
+                    <element signature="e#331#332#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -629,6 +629,9 @@
     <history-entry file="EventTest - 2018.01.09 at 11h 07m 31s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EventTest - 2018.01.09 at 11h 09m 36s.xml">
+      <configuration name="EventTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1302" extended-state="6" />
@@ -680,6 +683,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -688,17 +701,7 @@
             <element signature="e#239#240#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
           </folding>
         </state>
       </provider>

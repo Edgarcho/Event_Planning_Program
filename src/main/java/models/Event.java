@@ -12,6 +12,6 @@ public class Event {
         return this.guest;
     }
     public int getsFood(){
-        return 0;
+        return this.food;
     }
 }
