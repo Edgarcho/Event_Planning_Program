@@ -29,12 +29,11 @@ public class Event {
     public int getsTotal(){
         return this.total;
     }
-    /*
+
     public int guestCost(int totalGuest){
-        int guestPlateCost = 7;
-        int guestTotal = this.guest * guestPlateCost;
-        return guestTotal;
+        return 0;
     }
+    /*
     public int totalCost(int guestTotal){
         int total = guestTotal + 0;
         return total;

@@ -39,12 +39,12 @@ public class EventTest {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(0,testEvent.getsTotal());
     }
-/*    @Test
+   @Test
     public void newEvent_guestCost_7() {
-        Event testEvent = new Event(1, 1, 1, 1);
+        Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(7, testEvent.guestCost(1));
     }
-
+/*
     @Test
     public void newEvent_totalCost_7() {
         Event testEvent = new Event(1,1,1,1);
