@@ -5,12 +5,14 @@ public class Event {
     private String food;
     private String drink;
     private String entertainment;
+    private int total;
 
     public Event(int guest, String food, String drink, String entertainment){
         this.guest = guest;
         this.food = food;
         this.drink = drink;
         this.entertainment = entertainment;
+        this.total = 0;
     }
     public int getsGuest(){
         return this.guest;
@@ -25,7 +27,7 @@ public class Event {
         return this.entertainment;
     }
     public int getsTotal(){
-        return -1;
+        return this.total;
     }
     /*
     public int guestCost(int totalGuest){
