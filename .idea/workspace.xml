@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/models/EventTest.java" line="8" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2c6ea9-569f-437f-94de-97eb7b86a5ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/test/classes/models/EventTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Event.java" afterPath="$PROJECT_DIR$/src/main/java/models/Event.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/EventTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/EventTest.java" />
-    </list>
+    <list default="true" id="8c2c6ea9-569f-437f-94de-97eb7b86a5ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -41,8 +37,8 @@
           <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="452">
-                  <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+                <state relative-caret-position="460">
+                  <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
                   <folding>
                     <element signature="e#430#431#0" expanded="true" />
                     <element signature="e#463#464#0" expanded="true" />
@@ -68,7 +64,7 @@
           <file leaf-file-name="EventTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="860">
+                <state relative-caret-position="510">
                   <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -747,8 +743,8 @@
     <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 55m 48s.xml">
       <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 37m 09s.xml">
-      <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
+    <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 56m 45s.xml">
+      <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 37m 19s.xml">
       <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
@@ -775,7 +771,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32634458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32634458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,7 +779,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31905195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31905195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="5.4054055E-4" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
@@ -860,7 +856,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
+        <state relative-caret-position="510">
           <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -870,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="460">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
           <folding>
             <element signature="e#430#431#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
