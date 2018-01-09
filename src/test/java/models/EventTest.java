@@ -44,4 +44,10 @@ public class EventTest {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(10, testEvent.plateCost());
     }
+
+    @Test
+    public void grandTotal_getGuestTotal_10() {
+        Event testEvent = new Event(1,"buffet","full bar","dj");
+        assertEquals(10,testEvent.grandTotal());
+    }
 }
