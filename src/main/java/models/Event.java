@@ -36,6 +36,6 @@ public class Event {
     }
     public int grandTotal(){
         this.total = plateCost();
-        return 0;
+        return this.total;
     }
 }
