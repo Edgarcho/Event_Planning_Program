@@ -14,4 +14,7 @@ public class Event {
     public int getsFood(){
         return this.food;
     }
+    public int getsDrink(){
+        return 0;
+    }
 }
