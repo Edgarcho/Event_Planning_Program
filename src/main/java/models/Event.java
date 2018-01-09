@@ -24,4 +24,7 @@ public class Event {
     public int getsEntertainment(){
         return this.entertainment;
     }
+    public int guestCost(int totalGuest){
+        return 0;
+    }
 }

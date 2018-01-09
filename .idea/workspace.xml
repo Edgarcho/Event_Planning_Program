@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8c2c6ea9-569f-437f-94de-97eb7b86a5ad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/models/EventTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Event.class" afterPath="$PROJECT_DIR$/out/production/classes/models/Event.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Event.java" afterPath="$PROJECT_DIR$/src/main/java/models/Event.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/models/EventTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/EventTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +26,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33964306">
+    <splitter split-orientation="horizontal" split-proportion="0.43320712">
       <split-first>
         <leaf>
           <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
@@ -41,8 +42,8 @@
           <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+                <state relative-caret-position="402">
+                  <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
                   <folding>
                     <element signature="e#365#366#0" expanded="true" />
                     <element signature="e#398#399#0" expanded="true" />
@@ -52,6 +53,8 @@
                     <element signature="e#518#519#0" expanded="true" />
                     <element signature="e#554#555#0" expanded="true" />
                     <element signature="e#595#596#0" expanded="true" />
+                    <element signature="e#637#638#0" expanded="true" />
+                    <element signature="e#661#662#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -64,8 +67,8 @@
           <file leaf-file-name="EventTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="473">
-                  <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+                <state relative-caret-position="573">
+                  <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -381,8 +384,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/models/Event.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/EventTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Event.java" />
       </list>
     </option>
   </component>
@@ -617,9 +620,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventTest - 2018.01.09 at 10h 53m 16s.xml">
-      <configuration name="EventTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventTest - 2018.01.09 at 11h 07m 31s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
@@ -645,6 +645,9 @@
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EventTest - 2018.01.09 at 11h 32m 32s.xml">
+      <configuration name="EventTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventTest - 2018.01.09 at 11h 55m 29s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -700,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="402">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="e#365#366#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
@@ -711,14 +714,16 @@
             <element signature="e#518#519#0" expanded="true" />
             <element signature="e#554#555#0" expanded="true" />
             <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="573">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
