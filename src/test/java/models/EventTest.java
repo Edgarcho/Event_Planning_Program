@@ -40,14 +40,8 @@ public class EventTest {
         assertEquals(0,testEvent.getsTotal());
     }
    @Test
-    public void totalCost_getGuestTotal_10() {
+    public void plateCost_getGuestTotal_10() {
         Event testEvent = new Event(1,"buffet","full bar","dj");
-        assertEquals(10, testEvent.totalCost());
-    }
-
-    @Test
-    public void totalCost_getGuestAndFoodTotal_210() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
-        assertEquals(200,testEvent.totalCost());
+        assertEquals(10, testEvent.plateCost());
     }
 }

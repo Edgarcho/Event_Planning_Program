@@ -29,10 +29,9 @@ public class Event {
     public int getsTotal(){
         return this.total;
     }
-
-    public int totalCost(){
-        int plateCost = 10;
-        this.total = this.guest*plateCost;
-        return total;
+    public int plateCost(){
+        int platePerPerson = 10;
+        int guestTotal = this.guest*platePerPerson;
+        return 0;
     }
 }
