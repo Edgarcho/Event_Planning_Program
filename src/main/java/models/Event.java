@@ -31,7 +31,9 @@ public class Event {
     }
 
     public int guestCost(int totalGuest){
-        return 0;
+        int plateCost = 10;
+        int guestTotal = plateCost * totalGuest;
+        return guestTotal;
     }
     /*
     public int totalCost(int guestTotal){

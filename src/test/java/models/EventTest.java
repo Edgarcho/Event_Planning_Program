@@ -40,9 +40,9 @@ public class EventTest {
         assertEquals(0,testEvent.getsTotal());
     }
    @Test
-    public void newEvent_guestCost_7() {
+    public void newEvent_guestCost_10() {
         Event testEvent = new Event(1,"buffet","full bar","dj");
-        assertEquals(7, testEvent.guestCost(1));
+        assertEquals(10, testEvent.guestCost(1));
     }
 /*
     @Test
