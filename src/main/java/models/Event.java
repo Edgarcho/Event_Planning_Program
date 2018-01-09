@@ -28,4 +28,7 @@ public class Event {
         int guestPlateCost = 7;
         return this.guest * guestPlateCost;
     }
+    public int totalCost(int guestTotal){
+        return 0;
+    }
 }
