@@ -34,7 +34,9 @@ public class EventTest {
         assertEquals("dj", testEvent.getsEntertainment());
     }
 
-
+    @Test
+    public void name() {
+    }
 /*    @Test
     public void newEvent_guestCost_7() {
         Event testEvent = new Event(1, 1, 1, 1);
