@@ -2,11 +2,11 @@ package models;
 
 public class Event {
     private int guest;
-    private int food;
-    private int drink;
-    private int entertainment;
+    private String food;
+    private String drink;
+    private String entertainment;
 
-    public Event(int guest, int food, int drink, int entertainment){
+    public Event(int guest, String food, String drink, String entertainment){
         this.guest = guest;
         this.food = food;
         this.drink = drink;
@@ -15,20 +15,24 @@ public class Event {
     public int getsGuest(){
         return this.guest;
     }
-    public int getsFood(){
+    public String getsFood(){
         return this.food;
     }
-    public int getsDrink(){
+    public String getsDrink(){
         return this.drink;
     }
-    public int getsEntertainment(){
+    public String getsEntertainment(){
         return this.entertainment;
     }
+    /*
     public int guestCost(int totalGuest){
         int guestPlateCost = 7;
-        return this.guest * guestPlateCost;
+        int guestTotal = this.guest * guestPlateCost;
+        return guestTotal;
     }
     public int totalCost(int guestTotal){
-        return 0;
+        int total = guestTotal + 0;
+        return total;
     }
+    */
 }

@@ -6,35 +6,36 @@ public class EventTest {
 
     @Test
     public void newEvent_instantiatesCorrectly() throws Exception {
-        Event testEvent = new Event(1, 1, 1, 1);
+        Event testEvent = new Event(1, "buffet", "full bar", "dj");
         assertEquals(true, testEvent instanceof Event);
     }
 
     @Test
     public void newEvent_getsGuest_1() {
-        Event testEvent = new Event(1,1,1,1);
+        Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(1, testEvent.getsGuest());
     }
 
     @Test
-    public void newEvent_getsFood_1() {
-        Event testEvent = new Event(1,1,1,1);
-        assertEquals(1, testEvent.getsFood());
+    public void newEvent_getsFood_buffet() {
+        Event testEvent = new Event(1,"buffet","full bar","dj");
+        assertEquals("buffet", testEvent.getsFood());
     }
 
     @Test
-    public void newEvent_getsDrink_1() {
-        Event testEvent = new Event(1,1,1,1);
-        assertEquals(1, testEvent.getsDrink());
+    public void newEvent_getsDrink_fullBar() {
+        Event testEvent = new Event(1,"buffet","full bar","dj");
+        assertEquals("full bar", testEvent.getsDrink());
     }
 
     @Test
-    public void newEvent_getsEntertainment_1() {
-        Event testEvent = new Event(1,1,1,1);
-        assertEquals(1, testEvent.getsEntertainment());
+    public void newEvent_getsEntertainment_dj() {
+        Event testEvent = new Event(1,"buffet","full bar","dj");
+        assertEquals("dj", testEvent.getsEntertainment());
     }
 
-    @Test
+
+/*    @Test
     public void newEvent_guestCost_7() {
         Event testEvent = new Event(1, 1, 1, 1);
         assertEquals(7, testEvent.guestCost(1));
@@ -45,4 +46,5 @@ public class EventTest {
         Event testEvent = new Event(1,1,1,1);
         assertEquals(7,testEvent.totalCost(1));
     }
+ */
 }
