@@ -35,7 +35,9 @@ public class EventTest {
     }
 
     @Test
-    public void name() {
+    public void newEvent_getsTotal_0() {
+        Event testEvent = new Event(1,"buffet","full bar","dj");
+        assertEquals(0,testEvent.getsTotal());
     }
 /*    @Test
     public void newEvent_guestCost_7() {
