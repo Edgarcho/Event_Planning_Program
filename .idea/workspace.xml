@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c2c6ea9-569f-437f-94de-97eb7b86a5ad" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/out/test/classes/models/EventTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Event.java" afterPath="$PROJECT_DIR$/src/main/java/models/Event.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/EventTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/EventTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,7 +25,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46024877">
+    <splitter split-orientation="horizontal" split-proportion="0.420768">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
@@ -39,8 +41,8 @@
           <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+                <state relative-caret-position="452">
+                  <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
                   <folding>
                     <element signature="e#430#431#0" expanded="true" />
                     <element signature="e#463#464#0" expanded="true" />
@@ -52,6 +54,8 @@
                     <element signature="e#669#670#0" expanded="true" />
                     <element signature="e#697#698#0" expanded="true" />
                     <element signature="e#730#731#0" expanded="true" />
+                    <element signature="e#1000#1001#0" expanded="true" />
+                    <element signature="e#1032#1033#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -64,8 +68,8 @@
           <file leaf-file-name="EventTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="49" column="37" lean-forward="false" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+                <state relative-caret-position="860">
+                  <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -494,7 +498,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EventTest.grandTotal_getGuestTotal_10">
+  <component name="RunManager" selected="JUnit.EventTest.foodTotal_getFoodTotal_200">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -540,6 +544,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="EventTest.foodTotal_getFoodTotal_200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="event-planning_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.EventTest" />
+      <option name="METHOD_NAME" value="foodTotal_getFoodTotal_200" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="EventTest.grandTotal_getGuestTotal_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -553,31 +582,6 @@
       <option name="PACKAGE_NAME" value="models" />
       <option name="MAIN_CLASS_NAME" value="models.EventTest" />
       <option name="METHOD_NAME" value="grandTotal_getGuestTotal_10" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="EventTest.newEvent_guestCost_7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="event-planning_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="models" />
-      <option name="MAIN_CLASS_NAME" value="models.EventTest" />
-      <option name="METHOD_NAME" value="newEvent_guestCost_7" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -702,18 +706,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EventTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EventTest.newEvent_guestCost_7" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EventTest.totalCost_getGuestTotal_10" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EventTest.plateCost_getGuestTotal_10" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EventTest.grandTotal_getGuestTotal_10" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EventTest.totalCost_getGuestTotal_10" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EventTest.plateCost_getGuestTotal_10" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EventTest.grandTotal_getGuestTotal_10" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EventTest.foodTotal_getFoodTotal_200" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EventTest.grandTotal_getGuestTotal_10" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EventTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EventTest.plateCost_getGuestTotal_10" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EventTest.totalCost_getGuestTotal_10" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EventTest.newEvent_guestCost_7" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EventTest.foodTotal_getFoodTotal_200" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EventTest.grandTotal_getGuestTotal_10" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EventTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EventTest.plateCost_getGuestTotal_10" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EventTest.totalCost_getGuestTotal_10" />
       </list>
     </recent_temporary>
   </component>
@@ -734,17 +738,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventTest - 2018.01.09 at 15h 34m 35s.xml">
-      <configuration name="EventTest" configurationId="JUnit" />
+    <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 54m 59s.xml">
+      <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 15h 34m 50s.xml">
-      <configuration name="EventTest" configurationId="JUnit" />
+    <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 55m 35s.xml">
+      <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 15h 36m 16s.xml">
-      <configuration name="EventTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 34m 19s.xml">
-      <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
+    <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 55m 48s.xml">
+      <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 37m 09s.xml">
       <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
@@ -761,8 +762,11 @@
     <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 39m 12s.xml">
       <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest_plateCost_getGuestTotal_10 - 2018.01.09 at 15h 34m 25s.xml">
-      <configuration name="EventTest.plateCost_getGuestTotal_10" configurationId="JUnit" />
+    <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 40m 28s.xml">
+      <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 54m 49s.xml">
+      <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -771,7 +775,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32634458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32634458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,7 +783,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31905195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31905195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="5.4054055E-4" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
@@ -830,6 +834,8 @@
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,8 +860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="49" column="37" lean-forward="false" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="860">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -864,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="452">
+          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
             <element signature="e#430#431#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
@@ -877,6 +883,8 @@
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
           </folding>
         </state>
       </provider>

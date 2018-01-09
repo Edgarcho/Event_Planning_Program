@@ -38,4 +38,8 @@ public class Event {
         this.total = plateCost();
         return this.total;
     }
+    public int foodTotal(){
+            return 0;
+        }
+
 }
