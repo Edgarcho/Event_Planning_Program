@@ -30,15 +30,13 @@ public class Event {
         return this.total;
     }
 
-    public int guestCost(int totalGuest){
+    public int totalCost(){
         int plateCost = 10;
-        int guestTotal = plateCost * totalGuest;
-        return guestTotal;
-    }
-    /*
-    public int totalCost(int guestTotal){
-        int total = guestTotal + 0;
+        this.total = this.guest*plateCost;
         return total;
     }
-    */
+//    public int totalCost(int guestTotal){
+//        return 0;
+//    }
+
 }
