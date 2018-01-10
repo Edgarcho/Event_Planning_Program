@@ -39,8 +39,8 @@
           <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
-                  <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+                <state relative-caret-position="327">
+                  <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
                   <folding>
                     <element signature="e#430#431#0" expanded="true" />
                     <element signature="e#463#464#0" expanded="true" />
@@ -52,8 +52,6 @@
                     <element signature="e#669#670#0" expanded="true" />
                     <element signature="e#697#698#0" expanded="true" />
                     <element signature="e#730#731#0" expanded="true" />
-                    <element signature="e#1288#1289#0" expanded="true" />
-                    <element signature="e#1312#1313#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -762,8 +760,8 @@
     <history-entry file="EventTest - 2018.01.09 at 16h 32m 47s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 57m 40s.xml">
-      <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
+    <history-entry file="EventTest - 2018.01.09 at 16h 48m 34s.xml">
+      <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 58m 59s.xml">
       <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
@@ -840,8 +838,6 @@
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -876,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="327">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
             <element signature="e#430#431#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
@@ -889,8 +885,6 @@
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -51,7 +51,12 @@ public class Event {
         }
     }
     public int entertainmentTotal(){
-        return 0;
+        if(this.entertainment.equals("dj")){
+            int entertainmentFee = 200;
+            return entertainmentFee;
+        }else{
+            return 0;
+        }
     }
   /*  public int grandTotal(){
         this.total = plateCost();
