@@ -6,38 +6,54 @@ import java.io.InputStreamReader;
 public class App {
 
     public static void main(String[] args) {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Welcome to our Portland Event Planning Service. What would you like to do? Enter one of the following options: New Event or Exit");
-        try {
-            String navigationChoice = bufferedReader.readLine();
-            if (navigationChoice.equals("New Event")) {
-                System.out.println("Alright, let's create a new event! How many guest will attend this event?");
-                int userGuest = Integer.parseInt(bufferedReader.readLine());
-                System.out.println("Great! What kind of food service do you want?");
-                System.out.println("We offer: Buffet, Three-course meal, or Light snack");
-                String userFood = bufferedReader.readLine();
-                System.out.println("Got it! What kind of drink service do you want?");
-                System.out.println("We offer: Unlimited, Two-drinks limited, or Water only");
-                String userDrink = bufferedReader.readLine();
-                System.out.println("Finally, what kind of entertainment do you want?");
-                System.out.println("We offer: DJ, Magician or Surprise Me");
-                String userEntertainment = bufferedReader.readLine();
-                Event userEvent = new Event(userGuest,userFood,userDrink,userEntertainment);
-                    System.out.println("Alright, here's your new Event");
-                    System.out.println( "----------------------" );
-                    System.out.println(userEvent.getGuest());
-                    System.out.println(userEvent.getFood());
-                    System.out.println(userEvent.getDrink());
-                    System.out.println(userEvent.getEntertainment());
-                    System.out.println(userEvent.grandTotal());
-            } else if (navigationChoice.equals("Exit")) {
-
-            } else {
-                System.out.println("I'm sorry, we don't recognize your input");
+        boolean programRunning = true;
+        while (programRunning) {
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+            System.out.println("Welcome to our Portland Event Planning Service. What would you like to do? Enter one of the following options: New Event or Exit");
+            try {
+                String navigationChoice = bufferedReader.readLine();
+                if (navigationChoice.equals("New Event")) {
+                    System.out.println("Alright, let's create a new event! How many guest will attend this event?");
+                    int userGuest = Integer.parseInt(bufferedReader.readLine());
+                    System.out.println("Great! What kind of food service do you want?");
+                    System.out.println("We offer: Buffet, Three-course meal, or Light snack");
+                    String userFood = bufferedReader.readLine();
+                    System.out.println("Got it! What kind of drink service do you want?");
+                    System.out.println("We offer: Unlimited, Two-drinks limit, or Water only");
+                    String userDrink = bufferedReader.readLine();
+                    System.out.println("Finally, what kind of entertainment do you want?");
+                    System.out.println("We offer: DJ, Magician or Surprise Me");
+                    String userEntertainment = bufferedReader.readLine();
+                    Event userEvent = new Event(userGuest, userFood, userDrink, userEntertainment);
+                    System.out.println("Alright, here's your new event");
+                    System.out.println("----------------------");
+                    System.out.println("Guest Attending: " + userEvent.getGuest());
+                    System.out.println("Food Service: " + userEvent.getFood());
+                    System.out.println("Drink Service: " + userEvent.getDrink());
+                    System.out.println("Entertainment Service: " + userEvent.getEntertainment());
+                    System.out.println("Grand Total: $" + userEvent.grandTotal());
+                    System.out.println("----------------------");
+                    System.out.println("Free coupon code: Enter New user or Surprise");
+                    String couponCode = bufferedReader.readLine();
+                        if(couponCode.equals("New user")){
+                            System.out.println("----------------------");
+                            System.out.println("Updated Grand Total: $" + userEvent.couponCode());
+                        }else if(couponCode.equals("Surprise")){
+                            System.out.println("----------------------");
+                            System.out.println("Updated Grand Total: $" + userEvent.couponCodeTwo());
+                        }else{
+                            System.out.println("Grand Total: $" + userEvent.grandTotal());
+                        }
+                } else if (navigationChoice.equals("Exit")) {
+                    System.out.println("Thank you for visiting!");
+                    System.out.println("Goodbye!");
+                    programRunning = false;
+                } else {
+                    System.out.println("I'm sorry, we don't recognize your input");
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 }
