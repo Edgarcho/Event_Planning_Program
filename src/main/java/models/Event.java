@@ -39,7 +39,12 @@ public class Event {
         return this.total;
     }
     public int foodTotal(){
+        if (this.food.equals("buffet")){
+            int mealPrice = 200;
+            return mealPrice;
+        }else{
             return 0;
         }
+    }
 
 }

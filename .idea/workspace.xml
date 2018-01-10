@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/models/EventTest.java" line="8" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2c6ea9-569f-437f-94de-97eb7b86a5ad" name="Default" comment="" />
+    <list default="true" id="8c2c6ea9-569f-437f-94de-97eb7b86a5ad" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Event.java" afterPath="$PROJECT_DIR$/src/main/java/models/Event.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -37,8 +39,8 @@
           <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+                <state relative-caret-position="585">
+                  <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
                   <folding>
                     <element signature="e#430#431#0" expanded="true" />
                     <element signature="e#463#464#0" expanded="true" />
@@ -50,8 +52,6 @@
                     <element signature="e#669#670#0" expanded="true" />
                     <element signature="e#697#698#0" expanded="true" />
                     <element signature="e#730#731#0" expanded="true" />
-                    <element signature="e#1000#1001#0" expanded="true" />
-                    <element signature="e#1032#1033#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -64,8 +64,8 @@
           <file leaf-file-name="EventTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+                <state relative-caret-position="-865">
+                  <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -746,8 +746,8 @@
     <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 56m 45s.xml">
       <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 37m 19s.xml">
-      <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
+    <history-entry file="EventTest_foodTotal_getFoodTotal_200 - 2018.01.09 at 15h 57m 40s.xml">
+      <configuration name="EventTest.foodTotal_getFoodTotal_200" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EventTest_grandTotal_getGuestTotal_10 - 2018.01.09 at 15h 38m 41s.xml">
       <configuration name="EventTest.grandTotal_getGuestTotal_10" configurationId="JUnit" />
@@ -830,8 +830,6 @@
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -856,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="-865">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -866,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="585">
+          <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding>
             <element signature="e#430#431#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
@@ -879,8 +877,6 @@
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
           </folding>
         </state>
       </provider>
