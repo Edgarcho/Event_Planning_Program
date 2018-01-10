@@ -11,33 +11,33 @@ public class EventTest {
     }
 
     @Test
-    public void newEvent_getsGuest_1() {
+    public void newEvent_getGuest_1() {
         Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
-        assertEquals(1, testEvent.getsGuest());
+        assertEquals(1, testEvent.getGuest());
     }
 
     @Test
-    public void newEvent_getsFood_buffet() {
+    public void newEvent_getFood_buffet() {
         Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
-        assertEquals("Buffet", testEvent.getsFood());
+        assertEquals("Buffet", testEvent.getFood());
     }
 
     @Test
-    public void newEvent_getsDrink_unlimited() {
+    public void newEvent_getDrink_unlimited() {
         Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
-        assertEquals("Unlimited", testEvent.getsDrink());
+        assertEquals("Unlimited", testEvent.getDrink());
     }
 
     @Test
-    public void newEvent_getsEntertainment_dj() {
+    public void newEvent_getEntertainment_dj() {
         Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
-        assertEquals("DJ", testEvent.getsEntertainment());
+        assertEquals("DJ", testEvent.getEntertainment());
     }
 
     @Test
-    public void newEvent_getsTotal_0() {
+    public void newEvent_getTotal_0() {
         Event testEvent = new Event(1,"Buffet","Unlimited","DJ");
-        assertEquals(0,testEvent.getsTotal());
+        assertEquals(0,testEvent.getTotal());
     }
 
     @Test

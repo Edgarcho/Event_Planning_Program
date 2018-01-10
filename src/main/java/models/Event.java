@@ -14,20 +14,20 @@ public class Event {
         this.entertainment = entertainment;
         this.total = 0;
     }
-    public int getsGuest(){
-        return this.guest;
+    public int getGuest(){
+        return guest;
     }
-    public String getsFood(){
-        return this.food;
+    public String getFood(){
+        return food;
     }
-    public String getsDrink(){
-        return this.drink;
+    public String getDrink(){
+        return drink;
     }
-    public String getsEntertainment(){
-        return this.entertainment;
+    public String getEntertainment(){
+        return entertainment;
     }
-    public int getsTotal(){
-        return this.total;
+    public int getTotal(){
+        return total;
     }
     public int plateCost(){
         int platePerPerson = 10;
