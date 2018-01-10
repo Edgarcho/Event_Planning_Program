@@ -55,10 +55,10 @@ public class Event {
         }else if(this.drink.equals("Two-drinks limit")){
             int drinkOptionTwo = 100;
             return drinkOptionTwo;
-        }else if(this.drink.equals("Water Only")){
+        }else if(this.drink.equals("Water only")){
            // int drinkOptionThree = 50;
           //  return drinkOption
-            return 0;
+            return -1;
         }
         else{
             return 0;
