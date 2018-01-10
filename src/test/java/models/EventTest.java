@@ -105,4 +105,10 @@ public class EventTest {
         Event testEvent = new Event(1,"Buffet","Unlimited","Surprise Me");
         assertEquals(50,testEvent.entertainmentTotal());
     }
+
+    @Test
+    public void couponCode_minusOneHundred_510() {
+        Event testEvent = new Event(1,"Buffet","Unlimited","DJ");
+        assertEquals(510,testEvent.couponCode());
+    }
 }

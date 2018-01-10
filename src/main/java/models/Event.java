@@ -58,8 +58,7 @@ public class Event {
         }else if(this.drink.equals("Water only")){
             int drinkOptionThree = 50;
             return drinkOptionThree;
-        }
-        else{
+        }else{
             return 0;
         }
     }
