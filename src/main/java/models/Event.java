@@ -54,7 +54,7 @@ public class Event {
             return drinkFee;
         }else if(this.drink.equals("Two-drinks limit")){
             int drinkFee = 100;
-            return 0;
+            return 100;
         }
         else{
             return 0;
