@@ -43,7 +43,12 @@ public class Event {
         }
     }
     public int drinkTotal(){
-        return 0;
+        if(this.drink.equals("full bar")){
+            int drinkFee = 200;
+            return drinkFee;
+        }else{
+            return 0;
+        }
     }
   /*  public int grandTotal(){
         this.total = plateCost();
