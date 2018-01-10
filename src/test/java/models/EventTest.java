@@ -39,16 +39,19 @@ public class EventTest {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(0,testEvent.getsTotal());
     }
-   @Test
+
+    @Test
     public void plateCost_getGuestTotal_10() {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(10, testEvent.plateCost());
     }
+
     @Test
     public void foodTotal_getFoodTotal_200() {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(200,testEvent.foodTotal());
     }
+
     @Test
     public void drinkTotal_getDrinkTotal_200() {
         Event testEvent = new Event(1,"buffet","full bar","dj");
@@ -59,5 +62,11 @@ public class EventTest {
     public void entertainmentTotal_getEntertainmentTotal_200() {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(200,testEvent.entertainmentTotal());
+    }
+
+    @Test
+    public void grandTotal_getTotalFromAllField_610() {
+        Event testEvent = new Event(1,"buffet","full bar","dj");
+        assertEquals(610,testEvent.grandTotal());
     }
 }
