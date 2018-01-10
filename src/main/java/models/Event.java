@@ -71,9 +71,8 @@ public class Event {
             int entertainmentOptionOne = 100;
             return entertainmentOptionOne;
         }else if(this.entertainment.equals("Surprise Me")){
-           // int entertainmentOptionOne = 50;
-           // return entertainmentOptionOne;
-                return 0;
+            int entertainmentOptionOne = 50;
+            return entertainmentOptionOne;
         }else{
             return 0;
         }
