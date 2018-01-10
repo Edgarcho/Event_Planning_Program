@@ -77,8 +77,11 @@ public class Event {
         }
     }
     public int grandTotal(){
-      int totalPrice = plateCost() + foodTotal() + drinkTotal() + entertainmentTotal();
-      this.total = totalPrice;
-      return this.total;
+        int totalPrice = plateCost() + foodTotal() + drinkTotal() + entertainmentTotal();
+        this.total = totalPrice;
+        return this.total;
+    }
+    public int couponCode(){
+        return 0;
     }
 }
