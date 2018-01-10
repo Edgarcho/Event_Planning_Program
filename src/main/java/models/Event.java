@@ -52,7 +52,11 @@ public class Event {
         if(this.drink.equals("Unlimited")){
             int drinkFee = 200;
             return drinkFee;
-        }else{
+        }else if(this.drink.equals("Two-drinks limit")){
+            int drinkFee = 100;
+            return 0;
+        }
+        else{
             return 0;
         }
     }
