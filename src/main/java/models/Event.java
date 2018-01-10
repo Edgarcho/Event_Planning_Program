@@ -50,6 +50,9 @@ public class Event {
             return 0;
         }
     }
+    public int entertainmentTotal(){
+        return 0;
+    }
   /*  public int grandTotal(){
         this.total = plateCost();
         return this.total;
