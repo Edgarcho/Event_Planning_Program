@@ -27,21 +27,24 @@ public class App {
                     Event userEvent = new Event(userGuest, userFood, userDrink, userEntertainment);
                     System.out.println("Alright, here's your new event");
                     System.out.println("----------------------");
-                    System.out.println("Guest Attending: " + userEvent.getGuest());
-                    System.out.println("Food Service: " + userEvent.getFood());
-                    System.out.println("Drink Service: " + userEvent.getDrink());
-                    System.out.println("Entertainment Service: " + userEvent.getEntertainment());
+                    System.out.println("Guest Attending: " + userEvent.getGuest() + "|Cost for service: $" + userEvent.plateCost());
+                    System.out.println("Food Service: " + userEvent.getFood() + "|Cost for service: $" + userEvent.foodTotal());
+                    System.out.println("Drink Service: " + userEvent.getDrink() + "|Cost for service: $" + userEvent.drinkTotal());
+                    System.out.println("Entertainment Service: " + userEvent.getEntertainment() + "|Cost per service: $" + userEvent.entertainmentTotal());
                     System.out.println("Grand Total: $" + userEvent.grandTotal());
                     System.out.println("----------------------");
-                    System.out.println("Free coupon code: Enter New user or Surprise");
+                    System.out.println("Free coupon codes: Enter either New user or Surprise");
                     String couponCode = bufferedReader.readLine();
                         if(couponCode.equals("New user")){
                             System.out.println("----------------------");
-                            System.out.println("Updated Grand Total: $" + userEvent.couponCode());
+                            System.out.println("Congratulations this code will take $100 off the total");
+                            System.out.println("Grand Total: $" + userEvent.couponCode());
                         }else if(couponCode.equals("Surprise")){
                             System.out.println("----------------------");
-                            System.out.println("Updated Grand Total: $" + userEvent.couponCodeTwo());
+                            System.out.println("Congratulations drinks are on us!!!");
+                            System.out.println("Grand Total: $" + userEvent.couponCodeTwo());
                         }else{
+                            System.out.println("I'm sorry, we don't recognize your coupon code");
                             System.out.println("Grand Total: $" + userEvent.grandTotal());
                         }
                 } else if (navigationChoice.equals("Exit")) {
