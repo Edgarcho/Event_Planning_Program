@@ -39,8 +39,8 @@ public class Event {
             int mealPrice = 200;
             return mealPrice;
         } else if (this.food.equals("afternoon lunch")){
-            //int mealPrice = 100;
-            return 0;
+            int mealPrice = 100;
+            return mealPrice;
         } else {
             return 0;
         }
