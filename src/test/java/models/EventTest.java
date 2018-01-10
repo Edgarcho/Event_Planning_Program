@@ -111,4 +111,10 @@ public class EventTest {
         Event testEvent = new Event(1,"Buffet","Unlimited","DJ");
         assertEquals(510,testEvent.couponCode());
     }
+
+    @Test
+    public void couponCodeTwo_freeDrink_410() {
+        Event testEvent = new Event(1,"Buffet","Unlimited","DJ");
+        assertEquals(410,testEvent.couponCodeTwo());
+    }
 }
