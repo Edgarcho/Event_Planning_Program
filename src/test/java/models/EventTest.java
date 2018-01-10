@@ -87,4 +87,10 @@ public class EventTest {
         Event testEvent = new Event(1, "Buffet", "Two-drinks limit", "DJ");
         assertEquals(100,testEvent.drinkTotal());
     }
+
+    @Test
+    public void drinkTotal_thirdOption_50() {
+        Event testEvent = new Event(1,"Buffet","Water only","DJ");
+        assertEquals(50,testEvent.drinkTotal());
+    }
 }

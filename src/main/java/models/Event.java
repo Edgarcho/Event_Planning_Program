@@ -36,25 +36,29 @@ public class Event {
     }
     public int foodTotal() {
         if (this.food.equals("Buffet")) {
-            int mealPrice = 200;
-            return mealPrice;
+            int mealOptionOne = 200;
+            return mealOptionOne;
         } else if (this.food.equals("Three-course meal")){
-            int mealPrice = 100;
-            return mealPrice;
+            int mealOptionTwo = 100;
+            return mealOptionTwo;
         } else if (this.food.equals("Light snack")){
-            int mealPrice = 50;
-            return mealPrice;
+            int mealOptionThree = 50;
+            return mealOptionThree;
         } else {
             return 0;
         }
     }
     public int drinkTotal(){
         if(this.drink.equals("Unlimited")){
-            int drinkFee = 200;
-            return drinkFee;
+            int drinkOptionOne = 200;
+            return drinkOptionOne;
         }else if(this.drink.equals("Two-drinks limit")){
-            int drinkFee = 100;
-            return 100;
+            int drinkOptionTwo = 100;
+            return drinkOptionTwo;
+        }else if(this.drink.equals("Water Only")){
+           // int drinkOptionThree = 50;
+          //  return drinkOption
+            return 0;
         }
         else{
             return 0;
@@ -62,8 +66,8 @@ public class Event {
     }
     public int entertainmentTotal(){
         if(this.entertainment.equals("DJ")){
-            int entertainmentFee = 200;
-            return entertainmentFee;
+            int entertainmentOptionOne = 200;
+            return entertainmentOptionOne;
         }else{
             return 0;
         }
