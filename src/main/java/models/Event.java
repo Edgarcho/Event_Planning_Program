@@ -68,7 +68,8 @@ public class Event {
             int entertainmentOptionOne = 200;
             return entertainmentOptionOne;
         }else if(this.entertainment.equals("Magician")){
-            return 0;
+            int entertainmentOptionOne = 100;
+            return entertainmentOptionOne;
         }else{
             return 0;
         }
