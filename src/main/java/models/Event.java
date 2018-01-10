@@ -41,7 +41,10 @@ public class Event {
         } else if (this.food.equals("afternoon lunch")){
             int mealPrice = 100;
             return mealPrice;
-        } else {
+        } else if (this.food.equals("breakfast")){
+            return 0;
+        }
+        else {
             return 0;
         }
     }
