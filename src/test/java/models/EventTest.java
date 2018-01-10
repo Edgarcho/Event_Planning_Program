@@ -99,4 +99,10 @@ public class EventTest {
         Event testEvent = new Event(1,"Buffet","Unlimited","Magician");
         assertEquals(100,testEvent.entertainmentTotal());
     }
+
+    @Test
+    public void entertainmentTotal_thirdOption_50() {
+        Event testEvent = new Event(1,"Buffet","Unlimited","Surprise Me");
+        assertEquals(50,testEvent.entertainmentTotal());
+    }
 }
