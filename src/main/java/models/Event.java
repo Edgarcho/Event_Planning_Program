@@ -87,4 +87,10 @@ public class Event {
         this.total = totalPrice;
         return this.total;
     }
+    public int couponCodeTwo(){
+        //int totalPrice = plateCost() + foodTotal() + entertainmentTotal();
+        //this.total = totalPrice;
+        //return this.total;
+        return 0;
+    }
 }
