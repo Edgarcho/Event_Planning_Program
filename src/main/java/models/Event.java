@@ -59,6 +59,8 @@ public class Event {
         }
     }
     public int grandTotal(){
-        return 0;
+      int totalPrice = plateCost() + foodTotal() + drinkTotal() + entertainmentTotal();
+      this.total = totalPrice;
+      return this.total;
     }
 }
