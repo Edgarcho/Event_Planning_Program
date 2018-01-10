@@ -34,17 +34,17 @@ public class Event {
         int guestTotal = this.guest*platePerPerson;
         return guestTotal;
     }
-    public int grandTotal(){
-        this.total = plateCost();
-        return this.total;
-    }
-    public int foodTotal(){
-        if (this.food.equals("buffet")){
+    public int foodTotal() {
+        if (this.food.equals("buffet")) {
             int mealPrice = 200;
             return mealPrice;
-        }else{
+        } else {
             return 0;
         }
     }
-
+  /*  public int grandTotal(){
+        this.total = plateCost();
+        return this.total;
+    }
+    */
 }
