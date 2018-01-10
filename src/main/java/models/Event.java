@@ -35,21 +35,21 @@ public class Event {
         return guestTotal;
     }
     public int foodTotal() {
-        if (this.food.equals("buffet")) {
+        if (this.food.equals("Buffet")) {
             int mealPrice = 200;
             return mealPrice;
-        } else if (this.food.equals("afternoon lunch")){
+        } else if (this.food.equals("Three-course meal")){
             int mealPrice = 100;
             return mealPrice;
-        } else if (this.food.equals("breakfast")){
-            return 0;
-        }
-        else {
+        } else if (this.food.equals("Light snack")){
+            int mealPrice = 50;
+            return mealPrice;
+        } else {
             return 0;
         }
     }
     public int drinkTotal(){
-        if(this.drink.equals("full bar")){
+        if(this.drink.equals("Unlimited")){
             int drinkFee = 200;
             return drinkFee;
         }else{
@@ -57,7 +57,7 @@ public class Event {
         }
     }
     public int entertainmentTotal(){
-        if(this.entertainment.equals("dj")){
+        if(this.entertainment.equals("DJ")){
             int entertainmentFee = 200;
             return entertainmentFee;
         }else{

@@ -6,79 +6,85 @@ public class EventTest {
 
     @Test
     public void newEvent_instantiatesCorrectly() throws Exception {
-        Event testEvent = new Event(1, "buffet", "full bar", "dj");
+        Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
         assertEquals(true, testEvent instanceof Event);
     }
 
     @Test
     public void newEvent_getsGuest_1() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
+        Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
         assertEquals(1, testEvent.getsGuest());
     }
 
     @Test
     public void newEvent_getsFood_buffet() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
-        assertEquals("buffet", testEvent.getsFood());
+        Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
+        assertEquals("Buffet", testEvent.getsFood());
     }
 
     @Test
-    public void newEvent_getsDrink_fullBar() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
-        assertEquals("full bar", testEvent.getsDrink());
+    public void newEvent_getsDrink_unlimited() {
+        Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
+        assertEquals("Unlimited", testEvent.getsDrink());
     }
 
     @Test
     public void newEvent_getsEntertainment_dj() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
-        assertEquals("dj", testEvent.getsEntertainment());
+        Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
+        assertEquals("DJ", testEvent.getsEntertainment());
     }
 
     @Test
     public void newEvent_getsTotal_0() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
+        Event testEvent = new Event(1,"Buffet","Unlimited","DJ");
         assertEquals(0,testEvent.getsTotal());
     }
 
     @Test
     public void plateCost_getGuestTotal_10() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
+        Event testEvent = new Event(1,"Buffet","Unlimited","DJ");
         assertEquals(10, testEvent.plateCost());
     }
 
     @Test
     public void foodTotal_getFoodTotal_200() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
+        Event testEvent = new Event(1,"Buffet","Unlimited","DJ");
         assertEquals(200,testEvent.foodTotal());
     }
 
     @Test
     public void drinkTotal_getDrinkTotal_200() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
+        Event testEvent = new Event(1,"Buffet","Unlimited","DJ");
         assertEquals(200,testEvent.drinkTotal());
     }
 
     @Test
     public void entertainmentTotal_getEntertainmentTotal_200() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
+        Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
         assertEquals(200,testEvent.entertainmentTotal());
     }
 
     @Test
     public void grandTotal_getTotalFromAllField_610() {
-        Event testEvent = new Event(1,"buffet","full bar","dj");
+        Event testEvent = new Event(1, "Buffet", "Unlimited", "DJ");
         assertEquals(610,testEvent.grandTotal());
     }
 
     @Test
     public void foodTotal_secondOption_100(){
-        Event testEvent = new Event(1, "afternoon lunch", "drink bar","dj");
+        Event testEvent = new Event(1, "Three-course meal", "Unlimited", "DJ");
         assertEquals(100,testEvent.foodTotal());
     }
 
     @Test
     public void foodTotal_thirdOption_50() {
-        Event testEvent = new Event(1, "breakfast", "drink bar","dj");
+        Event testEvent = new Event(1, "Light snack", "Unlimited", "DJ");
         assertEquals(50,testEvent.foodTotal());
+    }
+
+    @Test
+    public void drinkTotal_secondOption_100() {
+        Event testEvent = new Event(1, "Buffet", "Two-drinks limit", "DJ");
+        assertEquals(100,testEvent.drinkTotal());
     }
 }
