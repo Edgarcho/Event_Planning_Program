@@ -49,10 +49,15 @@ public class EventTest {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(200,testEvent.foodTotal());
     }
-
     @Test
     public void drinkTotal_getDrinkTotal_200() {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(200,testEvent.drinkTotal());
+    }
+
+    @Test
+    public void entertainmentTotal_getEntertainmentTotal_200() {
+        Event testEvent = new Event(1,"buffet","full bar","dj");
+        assertEquals(200,testEvent.entertainmentTotal());
     }
 }
