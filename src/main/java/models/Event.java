@@ -67,9 +67,13 @@ public class Event {
         if (this.entertainment.equals("DJ")) {
             int entertainmentOptionOne = 200;
             return entertainmentOptionOne;
-        }else if(this.entertainment.equals("Magician")){
+        }else if(this.entertainment.equals("Magician")) {
             int entertainmentOptionOne = 100;
             return entertainmentOptionOne;
+        }else if(this.entertainment.equals("Surprise Me")){
+           // int entertainmentOptionOne = 50;
+           // return entertainmentOptionOne;
+                return 0;
         }else{
             return 0;
         }
