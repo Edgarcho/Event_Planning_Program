@@ -56,9 +56,8 @@ public class Event {
             int drinkOptionTwo = 100;
             return drinkOptionTwo;
         }else if(this.drink.equals("Water only")){
-           // int drinkOptionThree = 50;
-          //  return drinkOption
-            return -1;
+            int drinkOptionThree = 50;
+            return drinkOptionThree;
         }
         else{
             return 0;
