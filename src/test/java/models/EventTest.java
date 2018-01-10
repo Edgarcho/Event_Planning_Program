@@ -69,4 +69,10 @@ public class EventTest {
         Event testEvent = new Event(1,"buffet","full bar","dj");
         assertEquals(610,testEvent.grandTotal());
     }
+
+    @Test
+    public void foodTotal_secondOption_100(){
+        Event testEvent = new Event(1, "afternoon lunch", "drink bar","dj");
+        assertEquals(100,testEvent.foodTotal());
+    }
 }
