@@ -63,10 +63,12 @@ public class Event {
             return 0;
         }
     }
-    public int entertainmentTotal(){
-        if(this.entertainment.equals("DJ")){
+    public int entertainmentTotal() {
+        if (this.entertainment.equals("DJ")) {
             int entertainmentOptionOne = 200;
             return entertainmentOptionOne;
+        }else if(this.entertainment.equals("Magician")){
+            return 0;
         }else{
             return 0;
         }
